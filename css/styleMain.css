@@ -1,0 +1,840 @@
+body {
+  color: #7592b1;
+  background-color: #F3F7FA;
+}
+.MainHeader {
+  background-color: #6d61fa;
+  height: 60px;
+}
+.Name_Main {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 60px;
+  font-weight: 700;
+}
+.Help {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  float: right;
+  line-height: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.Brows_DLS,
+.Brows_Sup,
+.Brows_Top {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  float: right;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.Brows_DLS:hover,
+.Brows_Sup:hover,
+.Brows_Top:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #847afb;
+}
+.Download_Head {
+  color: #3f3f3f;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* Ссылки на броузеры */
+/* Yandex */
+p {
+  padding: 17px 0 19px;
+}
+.Firefox,
+.Edge,
+.Vivaldi,
+.GX,
+.UC,
+.Brave,
+.Neon,
+.TOR,
+.Atom,
+.Dragon,
+.Maxthon,
+.K-Meleon,
+.Safari,
+.Min,
+.Chromium,
+.JET,
+.EL,
+.IE11 {
+  margin-top: 15px;
+}
+.Yandex,
+.Chrome,
+.Opera,
+.Firefox,
+.Edge,
+.Vivaldi,
+.GX,
+.UC,
+.Brave,
+.Neon,
+.TOR,
+.Atom,
+.Dragon,
+.Maxthon,
+.K-Meleon,
+.Safari,
+.Min,
+.Chromium,
+.JET,
+.EL,
+.IE11 {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #F3E8E8;
+  padding: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 370px;
+  margin-left: 15px;
+}
+.Yandex:hover .Yandex_img,
+.Chrome:hover .Yandex_img,
+.Opera:hover .Yandex_img,
+.Firefox:hover .Yandex_img,
+.Edge:hover .Yandex_img,
+.Vivaldi:hover .Yandex_img,
+.GX:hover .Yandex_img,
+.UC:hover .Yandex_img,
+.Brave:hover .Yandex_img,
+.Neon:hover .Yandex_img,
+.TOR:hover .Yandex_img,
+.Atom:hover .Yandex_img,
+.Dragon:hover .Yandex_img,
+.Maxthon:hover .Yandex_img,
+.K-Meleon:hover .Yandex_img,
+.Safari:hover .Yandex_img,
+.Min:hover .Yandex_img,
+.Chromium:hover .Yandex_img,
+.JET:hover .Yandex_img,
+.EL:hover .Yandex_img,
+.IE11:hover .Yandex_img,
+.Yandex:hover .Chrome_img,
+.Chrome:hover .Chrome_img,
+.Opera:hover .Chrome_img,
+.Firefox:hover .Chrome_img,
+.Edge:hover .Chrome_img,
+.Vivaldi:hover .Chrome_img,
+.GX:hover .Chrome_img,
+.UC:hover .Chrome_img,
+.Brave:hover .Chrome_img,
+.Neon:hover .Chrome_img,
+.TOR:hover .Chrome_img,
+.Atom:hover .Chrome_img,
+.Dragon:hover .Chrome_img,
+.Maxthon:hover .Chrome_img,
+.K-Meleon:hover .Chrome_img,
+.Safari:hover .Chrome_img,
+.Min:hover .Chrome_img,
+.Chromium:hover .Chrome_img,
+.JET:hover .Chrome_img,
+.EL:hover .Chrome_img,
+.IE11:hover .Chrome_img,
+.Yandex:hover .Opera_img,
+.Chrome:hover .Opera_img,
+.Opera:hover .Opera_img,
+.Firefox:hover .Opera_img,
+.Edge:hover .Opera_img,
+.Vivaldi:hover .Opera_img,
+.GX:hover .Opera_img,
+.UC:hover .Opera_img,
+.Brave:hover .Opera_img,
+.Neon:hover .Opera_img,
+.TOR:hover .Opera_img,
+.Atom:hover .Opera_img,
+.Dragon:hover .Opera_img,
+.Maxthon:hover .Opera_img,
+.K-Meleon:hover .Opera_img,
+.Safari:hover .Opera_img,
+.Min:hover .Opera_img,
+.Chromium:hover .Opera_img,
+.JET:hover .Opera_img,
+.EL:hover .Opera_img,
+.IE11:hover .Opera_img,
+.Yandex:hover .Firefox_img,
+.Chrome:hover .Firefox_img,
+.Opera:hover .Firefox_img,
+.Firefox:hover .Firefox_img,
+.Edge:hover .Firefox_img,
+.Vivaldi:hover .Firefox_img,
+.GX:hover .Firefox_img,
+.UC:hover .Firefox_img,
+.Brave:hover .Firefox_img,
+.Neon:hover .Firefox_img,
+.TOR:hover .Firefox_img,
+.Atom:hover .Firefox_img,
+.Dragon:hover .Firefox_img,
+.Maxthon:hover .Firefox_img,
+.K-Meleon:hover .Firefox_img,
+.Safari:hover .Firefox_img,
+.Min:hover .Firefox_img,
+.Chromium:hover .Firefox_img,
+.JET:hover .Firefox_img,
+.EL:hover .Firefox_img,
+.IE11:hover .Firefox_img,
+.Yandex:hover .Edge_img,
+.Chrome:hover .Edge_img,
+.Opera:hover .Edge_img,
+.Firefox:hover .Edge_img,
+.Edge:hover .Edge_img,
+.Vivaldi:hover .Edge_img,
+.GX:hover .Edge_img,
+.UC:hover .Edge_img,
+.Brave:hover .Edge_img,
+.Neon:hover .Edge_img,
+.TOR:hover .Edge_img,
+.Atom:hover .Edge_img,
+.Dragon:hover .Edge_img,
+.Maxthon:hover .Edge_img,
+.K-Meleon:hover .Edge_img,
+.Safari:hover .Edge_img,
+.Min:hover .Edge_img,
+.Chromium:hover .Edge_img,
+.JET:hover .Edge_img,
+.EL:hover .Edge_img,
+.IE11:hover .Edge_img,
+.Yandex:hover .Vivaldi_img,
+.Chrome:hover .Vivaldi_img,
+.Opera:hover .Vivaldi_img,
+.Firefox:hover .Vivaldi_img,
+.Edge:hover .Vivaldi_img,
+.Vivaldi:hover .Vivaldi_img,
+.GX:hover .Vivaldi_img,
+.UC:hover .Vivaldi_img,
+.Brave:hover .Vivaldi_img,
+.Neon:hover .Vivaldi_img,
+.TOR:hover .Vivaldi_img,
+.Atom:hover .Vivaldi_img,
+.Dragon:hover .Vivaldi_img,
+.Maxthon:hover .Vivaldi_img,
+.K-Meleon:hover .Vivaldi_img,
+.Safari:hover .Vivaldi_img,
+.Min:hover .Vivaldi_img,
+.Chromium:hover .Vivaldi_img,
+.JET:hover .Vivaldi_img,
+.EL:hover .Vivaldi_img,
+.IE11:hover .Vivaldi_img,
+.Yandex:hover .GX_img,
+.Chrome:hover .GX_img,
+.Opera:hover .GX_img,
+.Firefox:hover .GX_img,
+.Edge:hover .GX_img,
+.Vivaldi:hover .GX_img,
+.GX:hover .GX_img,
+.UC:hover .GX_img,
+.Brave:hover .GX_img,
+.Neon:hover .GX_img,
+.TOR:hover .GX_img,
+.Atom:hover .GX_img,
+.Dragon:hover .GX_img,
+.Maxthon:hover .GX_img,
+.K-Meleon:hover .GX_img,
+.Safari:hover .GX_img,
+.Min:hover .GX_img,
+.Chromium:hover .GX_img,
+.JET:hover .GX_img,
+.EL:hover .GX_img,
+.IE11:hover .GX_img,
+.Yandex:hover .UC_img,
+.Chrome:hover .UC_img,
+.Opera:hover .UC_img,
+.Firefox:hover .UC_img,
+.Edge:hover .UC_img,
+.Vivaldi:hover .UC_img,
+.GX:hover .UC_img,
+.UC:hover .UC_img,
+.Brave:hover .UC_img,
+.Neon:hover .UC_img,
+.TOR:hover .UC_img,
+.Atom:hover .UC_img,
+.Dragon:hover .UC_img,
+.Maxthon:hover .UC_img,
+.K-Meleon:hover .UC_img,
+.Safari:hover .UC_img,
+.Min:hover .UC_img,
+.Chromium:hover .UC_img,
+.JET:hover .UC_img,
+.EL:hover .UC_img,
+.IE11:hover .UC_img,
+.Yandex:hover .Brave_img,
+.Chrome:hover .Brave_img,
+.Opera:hover .Brave_img,
+.Firefox:hover .Brave_img,
+.Edge:hover .Brave_img,
+.Vivaldi:hover .Brave_img,
+.GX:hover .Brave_img,
+.UC:hover .Brave_img,
+.Brave:hover .Brave_img,
+.Neon:hover .Brave_img,
+.TOR:hover .Brave_img,
+.Atom:hover .Brave_img,
+.Dragon:hover .Brave_img,
+.Maxthon:hover .Brave_img,
+.K-Meleon:hover .Brave_img,
+.Safari:hover .Brave_img,
+.Min:hover .Brave_img,
+.Chromium:hover .Brave_img,
+.JET:hover .Brave_img,
+.EL:hover .Brave_img,
+.IE11:hover .Brave_img,
+.Yandex:hover .Neon_img,
+.Chrome:hover .Neon_img,
+.Opera:hover .Neon_img,
+.Firefox:hover .Neon_img,
+.Edge:hover .Neon_img,
+.Vivaldi:hover .Neon_img,
+.GX:hover .Neon_img,
+.UC:hover .Neon_img,
+.Brave:hover .Neon_img,
+.Neon:hover .Neon_img,
+.TOR:hover .Neon_img,
+.Atom:hover .Neon_img,
+.Dragon:hover .Neon_img,
+.Maxthon:hover .Neon_img,
+.K-Meleon:hover .Neon_img,
+.Safari:hover .Neon_img,
+.Min:hover .Neon_img,
+.Chromium:hover .Neon_img,
+.JET:hover .Neon_img,
+.EL:hover .Neon_img,
+.IE11:hover .Neon_img,
+.Yandex:hover .TOR_img,
+.Chrome:hover .TOR_img,
+.Opera:hover .TOR_img,
+.Firefox:hover .TOR_img,
+.Edge:hover .TOR_img,
+.Vivaldi:hover .TOR_img,
+.GX:hover .TOR_img,
+.UC:hover .TOR_img,
+.Brave:hover .TOR_img,
+.Neon:hover .TOR_img,
+.TOR:hover .TOR_img,
+.Atom:hover .TOR_img,
+.Dragon:hover .TOR_img,
+.Maxthon:hover .TOR_img,
+.K-Meleon:hover .TOR_img,
+.Safari:hover .TOR_img,
+.Min:hover .TOR_img,
+.Chromium:hover .TOR_img,
+.JET:hover .TOR_img,
+.EL:hover .TOR_img,
+.IE11:hover .TOR_img,
+.Yandex:hover .Atom_img,
+.Chrome:hover .Atom_img,
+.Opera:hover .Atom_img,
+.Firefox:hover .Atom_img,
+.Edge:hover .Atom_img,
+.Vivaldi:hover .Atom_img,
+.GX:hover .Atom_img,
+.UC:hover .Atom_img,
+.Brave:hover .Atom_img,
+.Neon:hover .Atom_img,
+.TOR:hover .Atom_img,
+.Atom:hover .Atom_img,
+.Dragon:hover .Atom_img,
+.Maxthon:hover .Atom_img,
+.K-Meleon:hover .Atom_img,
+.Safari:hover .Atom_img,
+.Min:hover .Atom_img,
+.Chromium:hover .Atom_img,
+.JET:hover .Atom_img,
+.EL:hover .Atom_img,
+.IE11:hover .Atom_img,
+.Yandex:hover .Dragon_img,
+.Chrome:hover .Dragon_img,
+.Opera:hover .Dragon_img,
+.Firefox:hover .Dragon_img,
+.Edge:hover .Dragon_img,
+.Vivaldi:hover .Dragon_img,
+.GX:hover .Dragon_img,
+.UC:hover .Dragon_img,
+.Brave:hover .Dragon_img,
+.Neon:hover .Dragon_img,
+.TOR:hover .Dragon_img,
+.Atom:hover .Dragon_img,
+.Dragon:hover .Dragon_img,
+.Maxthon:hover .Dragon_img,
+.K-Meleon:hover .Dragon_img,
+.Safari:hover .Dragon_img,
+.Min:hover .Dragon_img,
+.Chromium:hover .Dragon_img,
+.JET:hover .Dragon_img,
+.EL:hover .Dragon_img,
+.IE11:hover .Dragon_img,
+.Yandex:hover .Maxthon_img,
+.Chrome:hover .Maxthon_img,
+.Opera:hover .Maxthon_img,
+.Firefox:hover .Maxthon_img,
+.Edge:hover .Maxthon_img,
+.Vivaldi:hover .Maxthon_img,
+.GX:hover .Maxthon_img,
+.UC:hover .Maxthon_img,
+.Brave:hover .Maxthon_img,
+.Neon:hover .Maxthon_img,
+.TOR:hover .Maxthon_img,
+.Atom:hover .Maxthon_img,
+.Dragon:hover .Maxthon_img,
+.Maxthon:hover .Maxthon_img,
+.K-Meleon:hover .Maxthon_img,
+.Safari:hover .Maxthon_img,
+.Min:hover .Maxthon_img,
+.Chromium:hover .Maxthon_img,
+.JET:hover .Maxthon_img,
+.EL:hover .Maxthon_img,
+.IE11:hover .Maxthon_img,
+.Yandex:hover .K-Meleon_img,
+.Chrome:hover .K-Meleon_img,
+.Opera:hover .K-Meleon_img,
+.Firefox:hover .K-Meleon_img,
+.Edge:hover .K-Meleon_img,
+.Vivaldi:hover .K-Meleon_img,
+.GX:hover .K-Meleon_img,
+.UC:hover .K-Meleon_img,
+.Brave:hover .K-Meleon_img,
+.Neon:hover .K-Meleon_img,
+.TOR:hover .K-Meleon_img,
+.Atom:hover .K-Meleon_img,
+.Dragon:hover .K-Meleon_img,
+.Maxthon:hover .K-Meleon_img,
+.K-Meleon:hover .K-Meleon_img,
+.Safari:hover .K-Meleon_img,
+.Min:hover .K-Meleon_img,
+.Chromium:hover .K-Meleon_img,
+.JET:hover .K-Meleon_img,
+.EL:hover .K-Meleon_img,
+.IE11:hover .K-Meleon_img,
+.Yandex:hover .Safari_img,
+.Chrome:hover .Safari_img,
+.Opera:hover .Safari_img,
+.Firefox:hover .Safari_img,
+.Edge:hover .Safari_img,
+.Vivaldi:hover .Safari_img,
+.GX:hover .Safari_img,
+.UC:hover .Safari_img,
+.Brave:hover .Safari_img,
+.Neon:hover .Safari_img,
+.TOR:hover .Safari_img,
+.Atom:hover .Safari_img,
+.Dragon:hover .Safari_img,
+.Maxthon:hover .Safari_img,
+.K-Meleon:hover .Safari_img,
+.Safari:hover .Safari_img,
+.Min:hover .Safari_img,
+.Chromium:hover .Safari_img,
+.JET:hover .Safari_img,
+.EL:hover .Safari_img,
+.IE11:hover .Safari_img,
+.Yandex:hover .Min_img,
+.Chrome:hover .Min_img,
+.Opera:hover .Min_img,
+.Firefox:hover .Min_img,
+.Edge:hover .Min_img,
+.Vivaldi:hover .Min_img,
+.GX:hover .Min_img,
+.UC:hover .Min_img,
+.Brave:hover .Min_img,
+.Neon:hover .Min_img,
+.TOR:hover .Min_img,
+.Atom:hover .Min_img,
+.Dragon:hover .Min_img,
+.Maxthon:hover .Min_img,
+.K-Meleon:hover .Min_img,
+.Safari:hover .Min_img,
+.Min:hover .Min_img,
+.Chromium:hover .Min_img,
+.JET:hover .Min_img,
+.EL:hover .Min_img,
+.IE11:hover .Min_img,
+.Yandex:hover .Chromium_img,
+.Chrome:hover .Chromium_img,
+.Opera:hover .Chromium_img,
+.Firefox:hover .Chromium_img,
+.Edge:hover .Chromium_img,
+.Vivaldi:hover .Chromium_img,
+.GX:hover .Chromium_img,
+.UC:hover .Chromium_img,
+.Brave:hover .Chromium_img,
+.Neon:hover .Chromium_img,
+.TOR:hover .Chromium_img,
+.Atom:hover .Chromium_img,
+.Dragon:hover .Chromium_img,
+.Maxthon:hover .Chromium_img,
+.K-Meleon:hover .Chromium_img,
+.Safari:hover .Chromium_img,
+.Min:hover .Chromium_img,
+.Chromium:hover .Chromium_img,
+.JET:hover .Chromium_img,
+.EL:hover .Chromium_img,
+.IE11:hover .Chromium_img,
+.Yandex:hover .JET_img,
+.Chrome:hover .JET_img,
+.Opera:hover .JET_img,
+.Firefox:hover .JET_img,
+.Edge:hover .JET_img,
+.Vivaldi:hover .JET_img,
+.GX:hover .JET_img,
+.UC:hover .JET_img,
+.Brave:hover .JET_img,
+.Neon:hover .JET_img,
+.TOR:hover .JET_img,
+.Atom:hover .JET_img,
+.Dragon:hover .JET_img,
+.Maxthon:hover .JET_img,
+.K-Meleon:hover .JET_img,
+.Safari:hover .JET_img,
+.Min:hover .JET_img,
+.Chromium:hover .JET_img,
+.JET:hover .JET_img,
+.EL:hover .JET_img,
+.IE11:hover .JET_img,
+.Yandex:hover .EL_img,
+.Chrome:hover .EL_img,
+.Opera:hover .EL_img,
+.Firefox:hover .EL_img,
+.Edge:hover .EL_img,
+.Vivaldi:hover .EL_img,
+.GX:hover .EL_img,
+.UC:hover .EL_img,
+.Brave:hover .EL_img,
+.Neon:hover .EL_img,
+.TOR:hover .EL_img,
+.Atom:hover .EL_img,
+.Dragon:hover .EL_img,
+.Maxthon:hover .EL_img,
+.K-Meleon:hover .EL_img,
+.Safari:hover .EL_img,
+.Min:hover .EL_img,
+.Chromium:hover .EL_img,
+.JET:hover .EL_img,
+.EL:hover .EL_img,
+.IE11:hover .EL_img,
+.Yandex:hover .IE11_img,
+.Chrome:hover .IE11_img,
+.Opera:hover .IE11_img,
+.Firefox:hover .IE11_img,
+.Edge:hover .IE11_img,
+.Vivaldi:hover .IE11_img,
+.GX:hover .IE11_img,
+.UC:hover .IE11_img,
+.Brave:hover .IE11_img,
+.Neon:hover .IE11_img,
+.TOR:hover .IE11_img,
+.Atom:hover .IE11_img,
+.Dragon:hover .IE11_img,
+.Maxthon:hover .IE11_img,
+.K-Meleon:hover .IE11_img,
+.Safari:hover .IE11_img,
+.Min:hover .IE11_img,
+.Chromium:hover .IE11_img,
+.JET:hover .IE11_img,
+.EL:hover .IE11_img,
+.IE11:hover .IE11_img {
+  -webkit-animation-name: rot;
+          animation-name: rot;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+.Yandex:hover,
+.Chrome:hover,
+.Opera:hover,
+.Firefox:hover,
+.Edge:hover,
+.Vivaldi:hover,
+.GX:hover,
+.UC:hover,
+.Brave:hover,
+.Neon:hover,
+.TOR:hover,
+.Atom:hover,
+.Dragon:hover,
+.Maxthon:hover,
+.K-Meleon:hover,
+.Safari:hover,
+.Min:hover,
+.Chromium:hover,
+.JET:hover,
+.EL:hover,
+.IE11:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.Yandex_Link,
+.Chrome_Link,
+.Opera_Link,
+.Firefox_Link,
+.Edge_Link,
+.Vivaldi_Link,
+.GX_Link,
+.UC_Link,
+.Brave_Link,
+.Neon_Link,
+.TOR_Link,
+.Atom_Link,
+.Dragon_Link,
+.Maxthon_Link,
+.K-Meleon_Link,
+.Safari_Link,
+.Min_Link,
+.Chromium_Link,
+.JET_Link,
+.EL_Link,
+.IE11_Link {
+  color: black;
+  display: inline;
+  font-size: 22px;
+  line-height: 0;
+  font-weight: 550;
+}
+.Yandex_Link:hover,
+.Chrome_Link:hover,
+.Opera_Link:hover,
+.Firefox_Link:hover,
+.Edge_Link:hover,
+.Vivaldi_Link:hover,
+.GX_Link:hover,
+.UC_Link:hover,
+.Brave_Link:hover,
+.Neon_Link:hover,
+.TOR_Link:hover,
+.Atom_Link:hover,
+.Dragon_Link:hover,
+.Maxthon_Link:hover,
+.K-Meleon_Link:hover,
+.Safari_Link:hover,
+.Min_Link:hover,
+.Chromium_Link:hover,
+.JET_Link:hover,
+.EL_Link:hover,
+.IE11_Link:hover {
+  color: black;
+  text-decoration: none;
+}
+.Yandex_img,
+.Chrome_img,
+.Opera_img,
+.Firefox_img,
+.Edge_img,
+.Vivaldi_img,
+.GX_img,
+.UC_img,
+.Brave_img,
+.Neon_img,
+.TOR_img,
+.Atom_img,
+.Dragon_img,
+.Maxthon_img,
+.K-Meleon_img,
+.Safari_img,
+.Min_img,
+.Chromium_img,
+.JET_img,
+.EL_img,
+.IE11_img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin-top: -5%;
+  float: right;
+}
+.Yandex_img:hover,
+.Chrome_img:hover,
+.Opera_img:hover,
+.Firefox_img:hover,
+.Edge_img:hover,
+.Vivaldi_img:hover,
+.GX_img:hover,
+.UC_img:hover,
+.Brave_img:hover,
+.Neon_img:hover,
+.TOR_img:hover,
+.Atom_img:hover,
+.Dragon_img:hover,
+.Maxthon_img:hover,
+.K-Meleon_img:hover,
+.Safari_img:hover,
+.Min_img:hover,
+.Chromium_img:hover,
+.JET_img:hover,
+.EL_img:hover,
+.IE11_img:hover {
+  -webkit-animation-name: rot;
+          animation-name: rot;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.Yandex_Btn_Donwload,
+.Chrome_Btn_Donwload,
+.Opera_Btn_Donwload,
+.Firefox_Btn_Donwload,
+.Edge_Btn_Donwload,
+.Vivaldi_Btn_Donwload,
+.GX_Btn_Donwload,
+.UC_Btn_Donwload,
+.Brave_Btn_Donwload,
+.Neon_Btn_Donwload,
+.TOR_Btn_Donwload,
+.Atom_Btn_Donwload,
+.Dragon_Btn_Donwload,
+.Maxthon_Btn_Donwload,
+.K-Meleon_Btn_Donwload,
+.Safari_Btn_Donwload,
+.Min_Btn_Donwload,
+.Chromium_Btn_Donwload,
+.JET_Btn_Donwload,
+.EL_Btn_Donwload,
+.IE11_Btn_Donwload {
+  padding: 14px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fada61;
+  border-radius: 5px;
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.Yandex_Btn_Donwload:hover,
+.Chrome_Btn_Donwload:hover,
+.Opera_Btn_Donwload:hover,
+.Firefox_Btn_Donwload:hover,
+.Edge_Btn_Donwload:hover,
+.Vivaldi_Btn_Donwload:hover,
+.GX_Btn_Donwload:hover,
+.UC_Btn_Donwload:hover,
+.Brave_Btn_Donwload:hover,
+.Neon_Btn_Donwload:hover,
+.TOR_Btn_Donwload:hover,
+.Atom_Btn_Donwload:hover,
+.Dragon_Btn_Donwload:hover,
+.Maxthon_Btn_Donwload:hover,
+.K-Meleon_Btn_Donwload:hover,
+.Safari_Btn_Donwload:hover,
+.Min_Btn_Donwload:hover,
+.Chromium_Btn_Donwload:hover,
+.JET_Btn_Donwload:hover,
+.EL_Btn_Donwload:hover,
+.IE11_Btn_Donwload:hover {
+  color: black;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.stars {
+  width: 18px;
+}
+.stars_value {
+  font-size: 15px;
+  font-weight: 600;
+}
+.Yandex {
+  margin-left: 5px;
+}
+.Firefox {
+  margin-left: 0.5%;
+}
+.DSup_Link {
+  color: #0af;
+  text-decoration: underline;
+}
+.DSup_Link:hover {
+  color: #0af;
+  text-decoration: none;
+}
+.DSup_Link:visited {
+  color: #0af;
+}
+.DSup_VK,
+.DSup_Telega {
+  color: #0af;
+  text-decoration: underline;
+}
+.DSup_VK:hover,
+.DSup_Telega:hover {
+  color: #0af;
+  text-decoration: none;
+}
+.DSup_VK:visited,
+.DSup_Telega:visited {
+  color: #0af;
+}
+@media (min-width: 100px) and (max-width: 768px) {
+  .Yandex,
+  .Chrome,
+  .Opera {
+    margin-top: 15px;
+  }
+  .MainHeader {
+    height: 180px;
+  }
+  .Yandex {
+    top: 150px;
+    margin-bottom: 165px;
+    margin-left: 13px;
+  }
+  .Brows_Sup,
+  .Brows_DLS,
+  .Brows_Link {
+    float: left;
+    display: block;
+  }
+  .Firefox {
+    margin-left: 15px;
+  }
+  .Поддержка {
+    font-size: 10px;
+    text-align: center;
+  }
+  .Download_Head {
+    margin-top: 225px;
+  }
+}
+@-webkit-keyframes rot {
+  /* Анимация поворота иконок */
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    left: 0;
+    top: 0;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    left: 0;
+    top: 0;
+  }
+}
+@keyframes rot {
+  /* Анимация поворота иконок */
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    left: 0;
+    top: 0;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    left: 0;
+    top: 0;
+  }
+}

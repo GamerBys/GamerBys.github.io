@@ -1,0 +1,204 @@
+body{
+	color:#7592b1;
+	background-color: #F3F7FA;
+}
+.MainHeader{
+	background-color: rgb(109, 97, 250);
+	height: 60px;
+
+}
+.Name_Main{
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	font-size:24px;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-weight: 700;
+}
+.Help{
+	position: relative;
+	display:inline-block;
+	color:#fff;
+	float:right;
+	line-height: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.Brows_DLS, .Brows_Sup,.Brows_Top{
+	position: relative;
+	display:inline-block;
+	color:#fff;
+	float:right;
+	line-height: 60px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	margin-left: 30px;
+	transition: all 0.3s;
+	&:hover{
+		text-decoration: none;
+		color:#fff;
+		cursor: pointer;
+		background-color:lighten(#6d61fa, 5%);
+	}
+}
+.Download_Head{
+	color:#3f3f3f;
+	font-size:28px;
+	font-weight: bold;
+}
+/* Ссылки на броузеры */
+/* Yandex */
+p{
+	padding: 17px 0 19px;
+}
+.Firefox, .Edge, .Vivaldi, .GX, .UC, .Brave, .Neon, .TOR, .Atom, .Dragon, .Maxthon, .K-Meleon, .Safari, .Min, .Chromium, .JET, .EL, .IE11{
+	margin-top: 15px;
+}
+.Yandex, .Chrome, .Opera, .Firefox, .Edge, .Vivaldi, .GX, .UC, .Brave, .Neon, .TOR, .Atom, .Dragon, .Maxthon, .K-Meleon, .Safari, .Min, .Chromium, .JET, .EL, .IE11{
+	&:hover{
+		.Yandex, .Chrome, .Opera, .Firefox, .Edge, .Vivaldi, .GX, .UC, .Brave, .Neon, .TOR, .Atom, .Dragon, .Maxthon, .K-Meleon, .Safari, .Min, .Chromium, .JET, .EL, .IE11{
+			&_img{
+				animation-name:rot;
+				animation-duration:1s;
+				animation-timing-function: ease-out;
+			}
+		}
+	}
+
+	background-color: #fff;
+	border-radius:20px;
+	border:1px solid #F3E8E8;
+	padding: 30px;
+	transition:all 0.5s;
+	width: 370px;
+	margin-left: 15px;
+	&:hover{
+		box-shadow:0 0 10px rgba(0,0,0,0.5);
+	}
+	&_H2{		
+	}
+	&_Link{
+		color:black;
+		display: inline;
+		font-size: 22px;
+		line-height:0;
+		font-weight:550;
+		&:hover{
+			color:black;
+			text-decoration: none;
+		}
+	}
+	&_img{
+		width: 60px;
+		height: 60px;
+		position: relative;
+		margin-top: -5%;
+		float: right;
+		&:hover{
+		animation-name:rot;
+		animation-duration:2s;
+		}
+	}
+	&_Btn_Donwload{
+		padding: 14px 35px;
+		font-size:18px;
+		font-weight: 600;
+		text-align: center;
+		background-color: #fada61;
+		border-radius:5px;
+		color:black;
+		transition:all 0.5s;
+		&:hover{
+			color:black;
+			text-decoration: none;
+			box-shadow:0 0 10px rgba(0,0,0,0.5);
+		}
+	}
+}
+.stars{
+	width: 18px;
+
+	&_value{
+		font-size:15px;
+		font-weight: 600;
+	}
+}
+.Yandex{
+	margin-left: 5px;
+}
+.Firefox{
+	margin-left: 0.5%;
+}
+.DSup{
+	&_Link{
+		color:#0af;
+		text-decoration: underline;
+		&:hover{
+			color: #0af;
+			text-decoration: none;
+		}
+		&:visited{
+			color: #0af;
+		}
+	}
+	&_VK, &_Telega{
+		color: #0af;
+		text-decoration: underline;
+		&:hover{
+			color: #0af;
+			text-decoration: none;
+		}
+		&:visited{
+			color: #0af;
+		}
+	}
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+	.Yandex, .Chrome, .Opera{
+		margin-top: 15px;
+	}
+	.MainHeader{
+		height:180px;
+	}
+	.Download_Head{
+
+	}
+	.Yandex{
+		top: 150px;
+		margin-bottom: 165px;
+		margin-left: 13px;
+	}
+	.Brows{
+		&_Sup, &_DLS, &_Link{
+			float: left;
+			display:block;
+		}
+	}
+	.Firefox{
+		margin-left: 15px;
+	}
+	.Поддержка{
+		font-size: 10px;
+		text-align: center;
+	}
+	.Download_Head{
+		margin-top: 225px;	
+	}
+}
+
+@keyframes rot{ /* Анимация поворота иконок */
+	0%{
+		transform:rotateZ(0deg);
+		left: 0;
+		top: 0;
+	}
+	100%{
+		transform:rotateZ(360deg);
+		left: 0;
+		top: 0;
+	}
+
+	
+}
